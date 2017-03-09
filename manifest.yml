@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: foo2dBMMR
+  host: foo2dBMMR
+  disk_quota: 1024M
+  services:
+  - foo2dBMMR-cloudantNoSQLDB
